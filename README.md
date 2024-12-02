@@ -1,20 +1,15 @@
-Here's the updated `README.md` with the app returning the message **"Python Flask Basic App, Hello World!"**:
-
-```markdown
+Here’s the updated structure with a list-style explanation of each file in the project:
 # Python Flask Basic App with Docker
 
 This is a simple Python Flask application packaged with Docker. The app serves the message **"Python Flask Basic App, Hello World!"** when accessed via a web browser.
 
 ## Project Structure
 
-```
-python-flask-basic-app/
-│
-├── app.py              # Flask application code
-├── Dockerfile          # Docker configuration to build the image
-├── requirements.txt    # Python dependencies
-└── README.md           # Project documentation
-```
+- **`python-flask-basic-app/`**
+  - **`app.py`**: The Flask application code. It defines the Flask app and its routes. When accessed, it will display the message "Python Flask Basic App, Hello World!".
+  - **`Dockerfile`**: The Docker configuration file to build the Docker image. It specifies how the application is set up in the Docker container.
+  - **`requirements.txt`**: A file listing the Python dependencies required to run the Flask application. This includes Flask itself.
+  - **`README.md`**: The documentation file for the project. It explains the purpose of the project, the steps to build and run it, and other necessary details.
 
 ## Prerequisites
 
@@ -94,5 +89,10 @@ Python Flask Basic App, Hello World!
 This project is licensed under the MIT License.
 ```
 
-### Changes:
-- The message returned by the app is now **"Python Flask Basic App, Hello World!"**.
+### Project Structure (List Explanation):
+- **`app.py`**: Contains the Flask application and route that returns the message.
+- **`Dockerfile`**: Configuration to build the Docker image.
+- **`requirements.txt`**: Lists Python dependencies like Flask.
+- **`README.md`**: Documentation that provides instructions and details about the project.
+
+This structure is clearer in a list format for each file and its purpose.
